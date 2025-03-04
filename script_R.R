@@ -1,5 +1,5 @@
-library(tidyr)
-data<-PIMS_clean
+-library(tidyr)
+-data<-PIMS_clean
 str(data)
 # Load necessary libraries
 library(dplyr)
