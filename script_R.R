@@ -1,11 +1,11 @@
 -library(tidyr)
 -data<-PIMS_clean
-str(data)
-# Load necessary libraries
-library(dplyr)
-library(forcats)
+-str(data)
+ # Load necessary libraries
+ library(dplyr)
+ library(forcats)
 
-# Convert specified columns to factors
+## Convert specified columns to factors
 data <- data %>%
   mutate(across(c(
     `How old are you?`, 
