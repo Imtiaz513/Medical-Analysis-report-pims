@@ -51,7 +51,7 @@ data <- data %>%
 str(data)
 library(dplyr)
 
-## Rename variables with shorter names
+#### Rename variables with shorter names
 your_dataframe <- your_dataframe %>% rename(
   Subject_ID = `Subject ID`,
   Age = `How old are you?`,
