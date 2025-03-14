@@ -212,7 +212,7 @@ library(dplyr)
 library(tidyverse)
 
 
-# Create a summary table with Fisher's exact test results
+### Create a summary table with Fisher's exact test results
 summary_table <- data %>%
   select(PIMS, Age, Race, Education, Employed, Smoker, Smoking_During_Pregnancy,
          Medical_Conditions, Delivery_Mode, Baby_Term, Number_of_Children,
